@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D54E81161E815349003E29EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E81151E815349003E29EE /* AppDelegate.swift */; };
+		D54E81181E815349003E29EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E81171E815349003E29EE /* ViewController.swift */; };
+		D54E811B1E815349003E29EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54E81191E815349003E29EE /* Main.storyboard */; };
+		D54E811D1E815349003E29EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54E811C1E815349003E29EE /* Assets.xcassets */; };
+		D54E81201E815349003E29EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54E811E1E815349003E29EE /* LaunchScreen.storyboard */; };
+		D54E812B1E815349003E29EE /* NevermoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E812A1E815349003E29EE /* NevermoreTests.swift */; };
+		D54E81361E81534A003E29EE /* NevermoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E81351E81534A003E29EE /* NevermoreUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D54E81271E815349003E29EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D54E810A1E815349003E29EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D54E81111E815349003E29EE;
+			remoteInfo = Nevermore;
+		};
+		D54E81321E81534A003E29EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D54E810A1E815349003E29EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D54E81111E815349003E29EE;
+			remoteInfo = Nevermore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D54E81121E815349003E29EE /* Nevermore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nevermore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54E81151E815349003E29EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D54E81171E815349003E29EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D54E811A1E815349003E29EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D54E811C1E815349003E29EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D54E811F1E815349003E29EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D54E81211E815349003E29EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54E81261E815349003E29EE /* NevermoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NevermoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54E812A1E815349003E29EE /* NevermoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NevermoreTests.swift; sourceTree = "<group>"; };
+		D54E812C1E81534A003E29EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54E81311E81534A003E29EE /* NevermoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NevermoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54E81351E81534A003E29EE /* NevermoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NevermoreUITests.swift; sourceTree = "<group>"; };
+		D54E81371E81534A003E29EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D54E810F1E815349003E29EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54E81231E815349003E29EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54E812E1E81534A003E29EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D54E81091E815349003E29EE = {
+			isa = PBXGroup;
+			children = (
+				D54E81141E815349003E29EE /* Nevermore */,
+				D54E81291E815349003E29EE /* NevermoreTests */,
+				D54E81341E81534A003E29EE /* NevermoreUITests */,
+				D54E81131E815349003E29EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D54E81131E815349003E29EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D54E81121E815349003E29EE /* Nevermore.app */,
+				D54E81261E815349003E29EE /* NevermoreTests.xctest */,
+				D54E81311E81534A003E29EE /* NevermoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D54E81141E815349003E29EE /* Nevermore */ = {
+			isa = PBXGroup;
+			children = (
+				D54E81151E815349003E29EE /* AppDelegate.swift */,
+				D54E81171E815349003E29EE /* ViewController.swift */,
+				D54E81191E815349003E29EE /* Main.storyboard */,
+				D54E811C1E815349003E29EE /* Assets.xcassets */,
+				D54E811E1E815349003E29EE /* LaunchScreen.storyboard */,
+				D54E81211E815349003E29EE /* Info.plist */,
+			);
+			path = Nevermore;
+			sourceTree = "<group>";
+		};
+		D54E81291E815349003E29EE /* NevermoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				D54E812A1E815349003E29EE /* NevermoreTests.swift */,
+				D54E812C1E81534A003E29EE /* Info.plist */,
+			);
+			path = NevermoreTests;
+			sourceTree = "<group>";
+		};
+		D54E81341E81534A003E29EE /* NevermoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D54E81351E81534A003E29EE /* NevermoreUITests.swift */,
+				D54E81371E81534A003E29EE /* Info.plist */,
+			);
+			path = NevermoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D54E81111E815349003E29EE /* Nevermore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D54E813A1E81534A003E29EE /* Build configuration list for PBXNativeTarget "Nevermore" */;
+			buildPhases = (
+				D54E810E1E815349003E29EE /* Sources */,
+				D54E810F1E815349003E29EE /* Frameworks */,
+				D54E81101E815349003E29EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nevermore;
+			productName = Nevermore;
+			productReference = D54E81121E815349003E29EE /* Nevermore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D54E81251E815349003E29EE /* NevermoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D54E813D1E81534A003E29EE /* Build configuration list for PBXNativeTarget "NevermoreTests" */;
+			buildPhases = (
+				D54E81221E815349003E29EE /* Sources */,
+				D54E81231E815349003E29EE /* Frameworks */,
+				D54E81241E815349003E29EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D54E81281E815349003E29EE /* PBXTargetDependency */,
+			);
+			name = NevermoreTests;
+			productName = NevermoreTests;
+			productReference = D54E81261E815349003E29EE /* NevermoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D54E81301E81534A003E29EE /* NevermoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D54E81401E81534A003E29EE /* Build configuration list for PBXNativeTarget "NevermoreUITests" */;
+			buildPhases = (
+				D54E812D1E81534A003E29EE /* Sources */,
+				D54E812E1E81534A003E29EE /* Frameworks */,
+				D54E812F1E81534A003E29EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D54E81331E81534A003E29EE /* PBXTargetDependency */,
+			);
+			name = NevermoreUITests;
+			productName = NevermoreUITests;
+			productReference = D54E81311E81534A003E29EE /* NevermoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D54E810A1E815349003E29EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = dingo;
+				TargetAttributes = {
+					D54E81111E815349003E29EE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					D54E81251E815349003E29EE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D54E81111E815349003E29EE;
+					};
+					D54E81301E81534A003E29EE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D54E81111E815349003E29EE;
+					};
+				};
+			};
+			buildConfigurationList = D54E810D1E815349003E29EE /* Build configuration list for PBXProject "Nevermore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D54E81091E815349003E29EE;
+			productRefGroup = D54E81131E815349003E29EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D54E81111E815349003E29EE /* Nevermore */,
+				D54E81251E815349003E29EE /* NevermoreTests */,
+				D54E81301E81534A003E29EE /* NevermoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D54E81101E815349003E29EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54E81201E815349003E29EE /* LaunchScreen.storyboard in Resources */,
+				D54E811D1E815349003E29EE /* Assets.xcassets in Resources */,
+				D54E811B1E815349003E29EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54E81241E815349003E29EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54E812F1E81534A003E29EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D54E810E1E815349003E29EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54E81181E815349003E29EE /* ViewController.swift in Sources */,
+				D54E81161E815349003E29EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54E81221E815349003E29EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54E812B1E815349003E29EE /* NevermoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54E812D1E81534A003E29EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54E81361E81534A003E29EE /* NevermoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D54E81281E815349003E29EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D54E81111E815349003E29EE /* Nevermore */;
+			targetProxy = D54E81271E815349003E29EE /* PBXContainerItemProxy */;
+		};
+		D54E81331E81534A003E29EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D54E81111E815349003E29EE /* Nevermore */;
+			targetProxy = D54E81321E81534A003E29EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D54E81191E815349003E29EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D54E811A1E815349003E29EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D54E811E1E815349003E29EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D54E811F1E815349003E29EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D54E81381E81534A003E29EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D54E81391E81534A003E29EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D54E813B1E81534A003E29EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nevermore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fds.dingo.Nevermore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D54E813C1E81534A003E29EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nevermore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fds.dingo.Nevermore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D54E813E1E81534A003E29EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NevermoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fds.dingo.NevermoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nevermore.app/Nevermore";
+			};
+			name = Debug;
+		};
+		D54E813F1E81534A003E29EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NevermoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fds.dingo.NevermoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nevermore.app/Nevermore";
+			};
+			name = Release;
+		};
+		D54E81411E81534A003E29EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NevermoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fds.dingo.NevermoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Nevermore;
+			};
+			name = Debug;
+		};
+		D54E81421E81534A003E29EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NevermoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fds.dingo.NevermoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Nevermore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D54E810D1E815349003E29EE /* Build configuration list for PBXProject "Nevermore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54E81381E81534A003E29EE /* Debug */,
+				D54E81391E81534A003E29EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D54E813A1E81534A003E29EE /* Build configuration list for PBXNativeTarget "Nevermore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54E813B1E81534A003E29EE /* Debug */,
+				D54E813C1E81534A003E29EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D54E813D1E81534A003E29EE /* Build configuration list for PBXNativeTarget "NevermoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54E813E1E81534A003E29EE /* Debug */,
+				D54E813F1E81534A003E29EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D54E81401E81534A003E29EE /* Build configuration list for PBXNativeTarget "NevermoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54E81411E81534A003E29EE /* Debug */,
+				D54E81421E81534A003E29EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D54E810A1E815349003E29EE /* Project object */;
+}
