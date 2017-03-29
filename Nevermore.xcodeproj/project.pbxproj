@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D54E81161E815349003E29EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E81151E815349003E29EE /* AppDelegate.swift */; };
-		D54E81181E815349003E29EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E81171E815349003E29EE /* ViewController.swift */; };
-		D54E811B1E815349003E29EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54E81191E815349003E29EE /* Main.storyboard */; };
-		D54E811D1E815349003E29EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54E811C1E815349003E29EE /* Assets.xcassets */; };
-		D54E81201E815349003E29EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54E811E1E815349003E29EE /* LaunchScreen.storyboard */; };
 		D54E812B1E815349003E29EE /* NevermoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E812A1E815349003E29EE /* NevermoreTests.swift */; };
 		D54E81361E81534A003E29EE /* NevermoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E81351E81534A003E29EE /* NevermoreUITests.swift */; };
+		D54E81441E81537D003E29EE /* Nevermore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E81431E81537D003E29EE /* Nevermore.swift */; };
+		D54E81471E815B98003E29EE /* MemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E81461E815B98003E29EE /* MemoryCache.swift */; };
+		D5574FB51E8BE59100EA7425 /* AnyKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5574FB41E8BE59100EA7425 /* AnyKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +33,6 @@
 
 /* Begin PBXFileReference section */
 		D54E81121E815349003E29EE /* Nevermore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nevermore.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D54E81151E815349003E29EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D54E81171E815349003E29EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D54E811A1E815349003E29EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D54E811C1E815349003E29EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D54E811F1E815349003E29EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D54E81211E815349003E29EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D54E81261E815349003E29EE /* NevermoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NevermoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54E812A1E815349003E29EE /* NevermoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NevermoreTests.swift; sourceTree = "<group>"; };
@@ -47,6 +40,9 @@
 		D54E81311E81534A003E29EE /* NevermoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NevermoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54E81351E81534A003E29EE /* NevermoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NevermoreUITests.swift; sourceTree = "<group>"; };
 		D54E81371E81534A003E29EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54E81431E81537D003E29EE /* Nevermore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nevermore.swift; sourceTree = "<group>"; };
+		D54E81461E815B98003E29EE /* MemoryCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryCache.swift; sourceTree = "<group>"; };
+		D5574FB41E8BE59100EA7425 /* AnyKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnyKey.swift; path = Support/AnyKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +93,10 @@
 		D54E81141E815349003E29EE /* Nevermore */ = {
 			isa = PBXGroup;
 			children = (
-				D54E81151E815349003E29EE /* AppDelegate.swift */,
-				D54E81171E815349003E29EE /* ViewController.swift */,
-				D54E81191E815349003E29EE /* Main.storyboard */,
-				D54E811C1E815349003E29EE /* Assets.xcassets */,
-				D54E811E1E815349003E29EE /* LaunchScreen.storyboard */,
-				D54E81211E815349003E29EE /* Info.plist */,
+				D5574FB31E8BE56A00EA7425 /* Support */,
+				D54E81451E8153AD003E29EE /* Supporting Files */,
+				D54E81431E81537D003E29EE /* Nevermore.swift */,
+				D54E81461E815B98003E29EE /* MemoryCache.swift */,
 			);
 			path = Nevermore;
 			sourceTree = "<group>";
@@ -123,6 +117,22 @@
 				D54E81371E81534A003E29EE /* Info.plist */,
 			);
 			path = NevermoreUITests;
+			sourceTree = "<group>";
+		};
+		D54E81451E8153AD003E29EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D54E81211E815349003E29EE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5574FB31E8BE56A00EA7425 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D5574FB41E8BE59100EA7425 /* AnyKey.swift */,
+			);
+			name = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +242,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D54E81201E815349003E29EE /* LaunchScreen.storyboard in Resources */,
-				D54E811D1E815349003E29EE /* Assets.xcassets in Resources */,
-				D54E811B1E815349003E29EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D54E81181E815349003E29EE /* ViewController.swift in Sources */,
-				D54E81161E815349003E29EE /* AppDelegate.swift in Sources */,
+				D54E81441E81537D003E29EE /* Nevermore.swift in Sources */,
+				D54E81471E815B98003E29EE /* MemoryCache.swift in Sources */,
+				D5574FB51E8BE59100EA7425 /* AnyKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +302,6 @@
 			targetProxy = D54E81321E81534A003E29EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D54E81191E815349003E29EE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D54E811A1E815349003E29EE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D54E811E1E815349003E29EE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D54E811F1E815349003E29EE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D54E81381E81534A003E29EE /* Debug */ = {
@@ -505,6 +494,7 @@
 				D54E813C1E81534A003E29EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D54E813D1E81534A003E29EE /* Build configuration list for PBXNativeTarget "NevermoreTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +503,7 @@
 				D54E813F1E81534A003E29EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D54E81401E81534A003E29EE /* Build configuration list for PBXNativeTarget "NevermoreUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +512,7 @@
 				D54E81421E81534A003E29EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
